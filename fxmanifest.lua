@@ -1,8 +1,9 @@
+fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-fx_version 'cerulean'
-description 'Stop Panda Fucking Complaining Like a Bitch'
 
+version '1.0.0'
+repository 'https://github.com/Mythic-Framework/mythic-weapons'
 client_script "@mythic-base/components/cl_error.lua"
 client_script "@mythic-pwnzor/client/check.lua"
 
@@ -13,3 +14,4 @@ client_scripts {
 server_scripts {
     'server/**/*.lua'
 }
+server_script 'server/version.lua'
